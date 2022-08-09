@@ -1,5 +1,7 @@
 # This is a Heading
 
+# This is a second heading
+
 ## This is a smaller heading
 
 ### Smaller again
