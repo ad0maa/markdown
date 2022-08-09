@@ -1,43 +1,83 @@
-# This is a Heading
+# This is Markdown
 
-# This is a second Heading
+This line ends with a double-space.  
+That means this sentence appears on a new line.
 
-## This is a smaller heading
+This text is in a new paragraph because there is a blank line above it.
 
-### Smaller again
+This line does NOT end with a double-space.
+So even though this sentence looks like it is on its own line in the editor, there will not be a line-break once it's rendered.
 
-#### And Smaller
+Some _text_ with _italic emphasis_.
 
-##### Smaller
+Some **text** with **bold emphasis**.
 
-###### Smallest
+# This is a main heading. Use 1 per document.
 
-Paragraph blah blah blah
+## This is a subheading.
 
-You can use `code .` to open VS Code in the working directory.
+### A smaller heading again...
 
-# HTML
+#### Even smaller...
 
-```html
-<html>
-  <head> </head>
-</html>
+##### Smaller still...
+
+###### The smallest size of heading.
+
+Here's some regular text for comparison.
+
+#Check out what happens if you fail to leave a space after the '#'...
+
+- An
+- Un-ordered
+- List
+  - With a tabbed sub-point
+  - Or two
+
+1. This
+2. One
+3. Is
+4. Ordered
+   1. Tabs
+   2. Still
+   3. Work
+
+## Code Blocks
+
+```
+# This is a code block.
+print("Hello world.")
 ```
 
-# Python
-
-```py
-print("Hello World")
-
-
+```python
+# This is a language-aware code-block.
+print("Hello world")
 ```
 
-1. HTML is one language
-2. Python is another
+## Links
 
-- Unordered List
-- Another dot point
+[Link to Google](https://www.google.com)
 
-Click [here](https://hithub.com/) to open GitHub
+[Link to Alta Vista](http://www.altavista.com)
 
-![Cute pic of a cat](https://placekitten.com/200)
+[Link to Ask Jeeves](http://www.askjeeves.com)
+
+[Link to Yahoo](http://www.search.yahoo.com)
+
+## Images
+
+![A drawing of a dog](./medieval_dog.png)
+
+![A drawing of two birds with human heads.](./medieval_birds.png)
+
+![A drawing of who-knows-what...](./medieval_alleged_animal.png)
+
+## Images Do's and Dont's
+
+## AVOID doing this:
+
+![This is an image](/Users/oliver/DDS/example_repo/battle_snail.png)
+
+## DO THIS
+
+![This is an image](./battle_snail.png)
